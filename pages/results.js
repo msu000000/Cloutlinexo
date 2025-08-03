@@ -1,8 +1,6 @@
+import { useState } from "react";
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
-import { useState, useEffect } from "react";
-import Navbar from "../components/Navbar";
-import Footer from "../components/Footer";
 import { useRouter } from "next/router";
 import axios from "axios";
 
